@@ -1,0 +1,158 @@
+{
+  "verified_medium_transfer": {
+    "M1_seed42": {
+      "arxiv_ppl": 36.69,
+      "pubmed_ppl": 836.46,
+      "physics_ppl": 30.62
+    },
+    "M2_seed42": {
+      "arxiv_ppl": 36.89,
+      "pubmed_ppl": 746.8,
+      "physics_ppl": 30.8
+    },
+    "M3_seed42": {
+      "arxiv_ppl": 35.98,
+      "pubmed_ppl": 850.22,
+      "physics_ppl": 30.11
+    },
+    "M3_seed123": {
+      "arxiv_ppl": 36.39,
+      "pubmed_ppl": 770.98,
+      "physics_ppl": 30.38
+    },
+    "M3_seed7": {
+      "arxiv_ppl": 36.37,
+      "pubmed_ppl": 791.22,
+      "physics_ppl": 30.35
+    },
+    "M4_seed42": {
+      "arxiv_ppl": 36.21,
+      "pubmed_ppl": 683.63,
+      "physics_ppl": 30.21
+    },
+    "M4_seed123": {
+      "arxiv_ppl": 36.4,
+      "pubmed_ppl": 719.27,
+      "physics_ppl": 30.25
+    },
+    "M4_seed7": {
+      "arxiv_ppl": 36.18,
+      "pubmed_ppl": 712.92,
+      "physics_ppl": 30.28
+    }
+  },
+  "summary_medium": {
+    "M1": {
+      "arxiv": 36.69,
+      "pubmed": 836.46,
+      "physics": 30.62,
+      "seeds": 1
+    },
+    "M2": {
+      "arxiv": 36.89,
+      "pubmed": 746.8,
+      "physics": 30.8,
+      "seeds": 1
+    },
+    "M3": {
+      "arxiv": 36.25,
+      "pubmed_mean": 804.14,
+      "pubmed_std": 41.2,
+      "physics_mean": 30.28,
+      "physics_std": 0.15,
+      "seeds": 3
+    },
+    "M4": {
+      "arxiv": 36.26,
+      "pubmed_mean": 705.27,
+      "pubmed_std": 19.0,
+      "physics_mean": 30.25,
+      "physics_std": 0.04,
+      "seeds": 3
+    }
+  },
+  "in_domain_medium": {
+    "M1": {
+      "ppl": 35.79,
+      "params": 197289344,
+      "seeds": 1
+    },
+    "M2": {
+      "ppl": 36.09,
+      "params": 197289344,
+      "seeds": 1
+    },
+    "M3": {
+      "ppl_mean": 35.42,
+      "ppl_std": 0.2,
+      "params": 205731470,
+      "seeds": 3
+    },
+    "M4": {
+      "ppl_mean": 35.45,
+      "ppl_std": 0.06,
+      "params": 205733346,
+      "seeds": 3
+    }
+  },
+  "in_domain_tiny": {
+    "M1": {
+      "ppl_mean": 46.72,
+      "ppl_std": 0.51,
+      "params": 12126464,
+      "seeds": 2
+    },
+    "M2": {
+      "ppl_mean": 46.36,
+      "ppl_std": 0.34,
+      "params": 12126464,
+      "seeds": 2
+    },
+    "M3": {
+      "ppl_mean": 46.01,
+      "ppl_std": 0.09,
+      "params": 12324100,
+      "seeds": 3
+    },
+    "M4": {
+      "ppl_mean": 46.13,
+      "ppl_std": 0.43,
+      "params": 12324636,
+      "seeds": 3
+    }
+  },
+  "section_crossdomain": {
+    "M3": {
+      "arxiv_acc": 93.0,
+      "pubmed_acc": 79.2,
+      "pubmed_std": 0.4,
+      "degradation": 13.8
+    },
+    "M4": {
+      "arxiv_acc": 92.4,
+      "pubmed_acc": 80.3,
+      "pubmed_std": 0.3,
+      "degradation": 12.2
+    }
+  },
+  "citation_prediction": {
+    "M3": {
+      "arxiv_acc": 80.6,
+      "arxiv_f1": 37.9
+    },
+    "M4": {
+      "arxiv_acc": 81.5,
+      "arxiv_f1": 39.1
+    }
+  },
+  "key_findings": {
+    "1": "Sparse > Dense in-domain",
+    "2": "Learned > Fixed sparse",
+    "3": "Structure = Content in-domain (M4 ~ M3)",
+    "4": "Structure > Content cross-domain PubMed: M4 12.3% better",
+    "5": "No gap CS->Physics (near domain)",
+    "6": "Section ID cross-domain: M4=80.3% vs M3=79.2%",
+    "7": "Citation pred: M4 F1=39.1% vs M3 F1=37.9%",
+    "8": "M1/M2 medium: 1 seed only (compute limited)"
+  }
+}
