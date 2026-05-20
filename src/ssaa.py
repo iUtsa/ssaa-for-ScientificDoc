@@ -1,5 +1,4 @@
-﻿"""NOVA-SLM v2: SSAA - YOUR NOVEL Attention (PyTorch)"""
-import torch
+﻿import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import math

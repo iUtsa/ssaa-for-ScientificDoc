@@ -1,8 +1,4 @@
-﻿"""
-NOVA-SLM v2: BPE Tokenizer (From Scratch) - FIXED SPACES
-=========================================================
-"""
-import re
+﻿import re
 import pickle
 import numpy as np
 from typing import Dict, List, Tuple, Optional

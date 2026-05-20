@@ -1,5 +1,4 @@
-﻿"""NOVA-SLM v2: Complete Model (PyTorch) - YOUR NOVEL Architecture"""
-import torch
+﻿import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from dataclasses import dataclass

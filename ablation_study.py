@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import os, sys, json, time, argparse, math, pickle
 import torch
 import torch.nn as nn

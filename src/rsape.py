@@ -1,5 +1,4 @@
-﻿"""NOVA-SLM v2: RSAPE - YOUR NOVEL Positional Encoding (PyTorch)"""
-import torch
+﻿import torch
 import torch.nn as nn
 import math
 from typing import Dict
