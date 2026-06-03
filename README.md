@@ -1,6 +1,6 @@
 # Structure-Conditioned Sparse Attention for Scientific Document Language Modeling
 
-> Anonymous repository for paper review.
+
 
 ## Overview
 
